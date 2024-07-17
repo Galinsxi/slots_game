@@ -1,5 +1,5 @@
 const socket = io();
-const symbols = ['cherry', 'pear', 'apple', 'watermelon', 'melon']; // Example symbol names
+const symbols = ['A', 'B', 'C', 'D', 'E']; // Example symbol names
 let isRolling = false;
 let rollCount = 0;
 
