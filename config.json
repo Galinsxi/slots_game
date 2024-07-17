@@ -1,0 +1,8 @@
+{
+    "useHardcodedMatrix": false,
+    "hardcodedMatrix": [
+      ["cherry", "melon", "cherry"],
+      ["cherry", "cherry", "cherry"],
+      ["apple", "cherry", "cherry"]    ]
+  }
+  

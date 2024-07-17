@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Slot Machine</h1>
+    <div id="matrix" class="matrix">
+      <div class="column"></div>
+      <div class="column"></div>
+      <div class="column"></div>
+    </div>
+    <button id="roll-button" class="roll-button">Roll</button>
+    <div id="coins">Coins: 100</div>
+    <div id="winnings">Winnings: 0</div>
+    <div id="score"></div>
+    <button id="play-again-button" style="display: none;">Play Again</button>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
